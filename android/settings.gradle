@@ -1,0 +1,10 @@
+rootProject.name = 'KycLibRNTest'
+
+include ':kycLib-release'
+project(':kycLib-release').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kyc-library/android/kycLib-release')
+
+
+include ':react-native-kyc-library'
+project(':react-native-kyc-library').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kyc-library/android')
+
+include ':app'
