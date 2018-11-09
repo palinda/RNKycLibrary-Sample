@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
-    "react-native-kyc-library": "git+https://github.com/palinda/RNKycLibrary.git"
+    "react-native-kyc-library": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
